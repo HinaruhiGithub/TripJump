@@ -24,6 +24,9 @@
         app:layout_constraintTop_toBottomOf="@id/info_view"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        map:uiCompass="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
